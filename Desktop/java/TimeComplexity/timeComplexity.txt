@@ -1,0 +1,25 @@
+Time complexity != Time taken
+
+O(1) < O(logn) < O(n)
+Always look for worst case complexity.
+Always look at complexity for large data.
+
+
+Space complexity:-
+ Input space and auxiliary space:- The space which we are taking as input and the space used by the algorithm.
+
+
+Recursive Algorithms :-
+---------------------
+Recursive program don't have the constant  space complexity.
+Space complexity of the recursive program is the height of the tree.
+
+Two types of the recursive program :-
+
+(1) Linear            |   (2) Divide and conquer
+F(n)= f(n-1)+f(n-2)   |    F(n)= f(n/2)+O(1)
+                      |    example: binary search
+
+
+
+
