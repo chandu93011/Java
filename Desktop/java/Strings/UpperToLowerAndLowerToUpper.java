@@ -12,12 +12,15 @@ public class UpperToLowerAndLowerToUpper {
             if (ch >= 65 && ch <= 90) {
                 ch = (char) (ch + 32);
                 result = result + ch;
-            } else {
+            } else if(ch>='a' && ch<='z'){
                 ch = (char) (ch - 32);
                 result = result + ch;
+            }else{
+                result=result+ch;
             }
         }
         System.out.println(result);
+
 
     }
 }

@@ -8,6 +8,7 @@ public class VowelOrConsonant {
         String string=sc.next();
         String s2="aeiouAEIOU";
         int i;
+
         for(i=0;i<10;i++){
             String s= String.valueOf(s2.charAt(i));
             if(s.equals(string)){
